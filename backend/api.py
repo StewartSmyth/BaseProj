@@ -9,7 +9,9 @@ def index():
 
 @app.route("/hello")
 def tester():
-    return {"Hello World": ["HELLOOOOOo"]}
+    return {"Hello": "Hello World",
+            "Test": "Test"}
+
 
 
 if __name__ == "__main__":
